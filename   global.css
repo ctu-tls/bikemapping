@@ -1,0 +1,48 @@
+body {
+  font: 100%/1.5 system-ui, sans-serif;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1em;
+  background: #f7f4ef;
+  color: #222;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+p {
+  margin: 0.25em 0 0;
+  color: #555;
+}
+
+header {
+  display: flex;
+  gap: 1em;
+  align-items: baseline;
+  margin-bottom: 1em;
+}
+
+.time-filter {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  min-width: 260px;
+}
+
+.time-filter input {
+  width: 100%;
+}
+
+time {
+  font-weight: 700;
+}
+
+em {
+  color: #777;
+}
